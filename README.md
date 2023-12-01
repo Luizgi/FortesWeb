@@ -23,5 +23,5 @@ Permite cadastrar novos fornecedores, incluindo informações como nome, local d
 Usuários sem conta podem criar contas (não funcional)
 
 
-###Luiz Guilherme 
-###CC3M
+### 6. Luiz Guilherme 
+### 7. CC3M
