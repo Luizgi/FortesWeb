@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.lista {
+    display: flex;
+}
+
+.opcoes ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.opcoes li {
+    margin-right: 20px;
+}
+
+.opcoes a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.opcoes a:hover {
+    color: #3498DB;
+}
+
+.conteudo {
+    width: 70%;
+}
+
+.cabecalho h2 {
+    color: #2C3E50;
+}
+
+.tabela {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #2C3E50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #BDC3C7;
+    padding: 8px;
+    text-align: left;
+}
+
+.topo {
+    background-color: #ECF0F1;
+}
+
+.tipo-refeicao {
+    font-style: italic;
+}
+
+.comeu-sim {
+    color: #27AE60;
+    font-weight: bold;
+}
+
+.comeu-nao {
+    color: #E74C3C;
+    font-weight: bold;
+}

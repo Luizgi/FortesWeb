@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #3498DB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.title h2 {
+    color: #2C3E50;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #BDC3C7;
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    background-color: #3498DB;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980B9;
+}

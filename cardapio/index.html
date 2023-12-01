@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Cardápio</title>
+</head>
+<body>
+    <section class="menu-page">
+        <div class="menu-sidebar">
+            <div class="logo">
+                <img src="../img/Logo Fortes.png" alt="Logo da Fortes">
+            </div>
+            <div class="options">
+                <ul>
+                    <li><a href="index.html">Cardápio</a></li>
+                    <li><a href="../reports/index.html">Relatórios</a></li>
+                    <li><a href="../fornecedor/index.html">Fornecedores</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="menu-content">
+            <div class="menu-header">
+                <h2>Cardápio</h2>
+            </div>
+            <div class="menu-list">
+                <h2>Adicione um Novo Prato</h2>
+                <table id="menu-table">
+                    <thead>
+                        <th>Prato Principal</th>
+                        <th>Acompanhamento</th>
+                        <th>Tipo de Refeição</th>
+                        <th>Local da Obra</th>
+                        <th>Data da Refeição</th>
+                        <th>Fornecedor</th>
+                    </thead>
+                    <tbody>
+                        <!-- Aqui você pode adicionar dinamicamente linhas para os itens do cardápio -->
+                    </tbody>
+                </table>
+                <button onclick="insertMenu()">Inserir</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

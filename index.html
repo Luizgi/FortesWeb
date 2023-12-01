@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">
+</head>
+<body>
+    <section class="login-container">
+        <div class="login-box">
+            <img src="img/Logo Fortes.png" alt="Logo Fortes">
+            <form id="loginForm">
+                <label for="registro">Registro</label>
+                <input type="text" id="registro" name="registro" placeholder="Digite seu registro" autofocus>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+                <button type="button" onclick="redirectToCardapio()">Entrar</button>
+            </form>
+            <p>Não tem uma conta? <a href="./criarConta/index.html">Registre-se</a></p>
+        </div>
+
+        <script>
+            function redirectToCardapio() {
+                // Obtenha os valores do formulário se necessário
+                var registro = document.getElementById('registro').value;
+                var senha = document.getElementById('senha').value;
+
+                // Adicione a lógica de validação ou outros processamentos aqui
+
+                // Redirecione para a página de cardápio
+                window.location.href = "./cardapio/index.html";
+            }
+        </script>
+    </section>
+</body>
+</html>
